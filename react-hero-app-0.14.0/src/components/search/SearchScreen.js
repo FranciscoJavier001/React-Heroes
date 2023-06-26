@@ -47,7 +47,7 @@ export const SearchScreen = ({ history }) => { //** Recibe el history, l31, se m
                         <input //** Lo que contiene la caja de texto */
                             type="text" //** Tiene es el Heroe */
                             placeholder="Escribe un SuperHeroe" //** Lo que voy a mostrar dentro del input */
-                            className="form-control text-center" //** El nombre, y esta es una clase de bootstrap, t-c=Centramos el contenido */
+                            className="form-control" //** El nombre, y esta es una clase de bootstrap, t-c=Centramos el contenido */
                             name="searchText" //** Si no lo tengo no puedo escribir, obligatorio en el useForm */
                             autoComplete="off" //** Para que no maneje un historial de busqueda en el input */
                             value={ searchText } //** Es el valor que va a recibir el searchText l19 y l22 */
